@@ -103,7 +103,7 @@ export default function TaxCalculator() {
 
     // Special handling for freelancers under Section 44ADA
     if (profession === "freelancer") {
-      if (grossIncome <= 7500000) { // 75 lakh presumptive taxation limit
+      if (grossIncome <= 7500000) { // 75 lakh presumptive taxation limit .
         let presumptiveIncome = grossIncome * 0.5; // 50% deemed profit
         breakdownDetails.push(`Section 44ADA applied: 50% of gross receipts ₹${grossIncome.toLocaleString()} = ₹${presumptiveIncome.toLocaleString()} taxable income`);
         netIncome = presumptiveIncome;
