@@ -1,5 +1,5 @@
 import React from "react";
-import TaxCalculator from "./TaxCalculator";
+import TaxCalculator from "./taxcalculator";
 
 function App() {
   return <TaxCalculator />;
